@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "21473294"))
 API_HASH = os.environ.get("API_HASH", "9ba7d95e8402e991ba753920f71bb670")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002160759349"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002207905584"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5040717658"))
@@ -28,14 +28,14 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5040717658"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://lol:lol@atlascluster.js3bl90.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = "mongodb+srv://imanos:imanos@cluster0.wkbmokd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "imanos")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "seturl.in")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "c429df3e5db8c58d9de31118646dadd5a2443cf2")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","2160759349/3")
+TUT_VID = os.environ.get("TUT_VID","2207905584/4")
 
 
 #force sub channel id, if you want enable force sub
