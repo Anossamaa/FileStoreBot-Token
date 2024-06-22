@@ -1,4 +1,4 @@
-#(©)CodeXBotz
+tu#(©)CodeXBotz
 
 
 
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "21473294"))
 API_HASH = os.environ.get("API_HASH", "9ba7d95e8402e991ba753920f71bb670")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "5040717658"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002192652910"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5040717658"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6095960355"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
